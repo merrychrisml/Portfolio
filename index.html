@@ -23,17 +23,20 @@
     <!-- Navbar -->
     <nav id="navbar">
       <div class="navbar__logo">
-        <a href="#">송준모</a>
       </div>
-      <div>
-        <ul class="navbar__menu">
-          <li class="navbar__menu__item">Home</li>
-          <li class="navbar__menu__item">About</li>
-          <li class="navbar__menu__item">Skills</li>
-          <li class="navbar__menu__item">My work</li>
-          <li class="navbar__menu__item">Contact</li>
-        </ul>
-      </div>
+
+      <ul class="navbar__menu">
+        <li class="navbar__menu__item">Home</li>
+        <li class="navbar__menu__item">About</li>
+        <li class="navbar__menu__item">Skills</li>
+        <li class="navbar__menu__item">My work</li>
+        <li class="navbar__menu__item">Contact</li>
+      </ul>
+
+      <!-- Toogle Button -->
+      <button class="navbar__toggle-btn">
+        <i class="fas fa-bars"></i>
+      </button>
     </nav>
     <!-- Home -->
     <section id="home">
@@ -95,7 +98,7 @@
                 <span>90%</span>
               </div>
               <div class="skill__bar">
-                <div class="skill__value" style="width: 90%;"></div>
+                <div class="skill__value" style="width: 90%"></div>
               </div>
             </div>
             <div class="skill">
@@ -104,7 +107,7 @@
                 <span>80%</span>
               </div>
               <div class="skill__bar">
-                <div class="skill__value" style="width: 80%;"></div>
+                <div class="skill__value" style="width: 80%"></div>
               </div>
             </div>
             <div class="skill">
@@ -113,7 +116,7 @@
                 <span>70%</span>
               </div>
               <div class="skill__bar">
-                <div class="skill__value" style="width: 70%;"></div>
+                <div class="skill__value" style="width: 70%"></div>
               </div>
             </div>
             <div class="skill">
@@ -122,7 +125,7 @@
                 <span>50%</span>
               </div>
               <div class="skill__bar">
-                <div class="skill__value" style="width: 50%;"></div>
+                <div class="skill__value" style="width: 50%"></div>
               </div>
             </div>
             <div class="skill">
@@ -131,7 +134,7 @@
                 <span>30%</span>
               </div>
               <div class="skill__bar">
-                <div class="skill__value" style="width: 30%;"></div>
+                <div class="skill__value" style="width: 30%"></div>
               </div>
             </div>
           </div>
@@ -139,37 +142,35 @@
       </div>
     </section>
     <!-- Works -->
-    <section id="work" class="section">
-      <h1>My work</h1>
-      <h3>Projects</h3>
-      <div class="work__categories">
-        <button class="category__btn active">
-          All<span class="category__count">4</span>
-        </button>
-        <button class="category__btn">
-          Front-end<span class="category__count">3</span>
-        </button>
-        <button class="category__btn">
-          Back-end<span class="category__count">1</span>
-        </button>
-      </div>
-      <div class="work__projects">
-        <a
-          href="http://airbnb.eba-q2n3vcxx.ap-northeast-2.elasticbeanstalk.com/"
-          class="project"
-          target="blank"
-        >
-          <img
-            src="imgs/airbnb.png"
-            alt="thmubnail"
-            class="project__img"
-          />
-          <div class="project__description poor">
-            <h3>Airbnb</h3>
-            HTML, Django, Tailwind CSS, ES6를 사용해서 airbnb 사이트를 클론코딩
-            한 후 AWS Elastic Beanstalk를 통해 배포하였습니다.
-          </div>
-        </a>
+    <section id="work" class="section" style="margin-bottom:84px;">
+      <div class="section__container">
+        <h1>My work</h1>
+        <h3>Projects</h3>
+        <div class="work__categories">
+          <button class="category__btn active">
+            All<span class="category__count">1</span>
+          </button>
+          <button class="category__btn">
+            Front-end<span class="category__count">1</span>
+          </button>
+          <button class="category__btn">
+            Back-end<span class="category__count">1</span>
+          </button>
+        </div>
+        <div class="work__projects">
+          <a
+            href="http://airbnb.eba-q2n3vcxx.ap-northeast-2.elasticbeanstalk.com/"
+            class="project"
+            target="blank"
+          >
+            <img src="imgs/airbnb.png" alt="thmubnail" class="project__img" />
+            <div class="project__description poor">
+              <h3>Airbnb</h3>
+              HTML, Django, Tailwind CSS, ES6를 사용해서 airbnb 사이트를
+              클론코딩 한 후 AWS Elastic Beanstalk를 통해 배포하였습니다.
+            </div>
+          </a>
+        </div>
       </div>
     </section>
     <!-- Contact -->
