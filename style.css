@@ -285,7 +285,7 @@ button {
   top: 0;
 }
 
-.category__btn:active,
+.category__btn.active,
 .category__btn:hover {
   background-color: var(--color-green);
   color: var(--color-white);
@@ -300,9 +300,7 @@ button {
   line-height: 24px;
   position: relative;
   display: inline-block;
-  top: -20px;
   left: 4px;
-  opacity: 0;
   transition: all var(--animation-duration) ease-in;
   margin-left: 4px;
 }
@@ -362,4 +360,30 @@ button {
   left: 50%;
   margin-left: -12px;
   margin-top: 8px;
+}
+
+/* Contact */
+#contact {
+    background-color: var(--color-green);
+}
+
+.contact__title,
+.contact__email,
+.contact__rights {
+    color:var(--color-white);
+}
+
+.contact__title {
+    margin:32px 0;
+}
+
+.contact__links {
+    font-size:var(--font-large);
+    margin:24px 0;
+    transition: all var(--animation-duration) ease-in;
+}
+
+.contact__links i:hover {
+    transform: scale(1.1);
+    color:var(--color-blue);
 }
