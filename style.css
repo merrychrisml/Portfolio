@@ -109,6 +109,7 @@ button {
   align-items: center;
   color: var(--color-white);
   padding: 16px;
+  z-index: 1;
 }
 
 #navbar.navbar--dark {
