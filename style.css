@@ -186,7 +186,7 @@ button {
 .section {
   text-align: center;
   padding: 50px;
-
+  padding-top: 100px;
   margin: auto;
 }
 
