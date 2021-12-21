@@ -501,6 +501,11 @@ button {
     flex-direction: column;
   }
 
+  .category__btn {
+    margin:4px 0;
+    width:100%;
+  }
+
   .project {
     flex-grow: 1;
   }
